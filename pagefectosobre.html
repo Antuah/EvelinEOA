@@ -1,32 +1,54 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
     .niñojugando {
         display: flex;
-        width: 99.5%;
+        width: 100%;
         height: 70vh;
-        border
+        object-fit: cover;
+        border: none;
+    }
+
+    .barra {
+        background-color: #000000;
+        color: #ffffff;
+        padding: 10px;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
     h1 {
-        height: 8vh;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 0;
     }
 
     .cuerpo {
         font-family: Arial, Helvetica, sans-serif;
         padding-left: 0.5%;
         font-size: 18px;
+        background-color: #ffffff;
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
-    .volver{border-radius: 8px;
-    background-color: #af4c4c; /* Green */
-    border: 2px solid #000000; ;
-    color: white;
-    padding: 10px 22px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+
+    .volver {
+        border-radius: 8px;
+        background-color: #af4c4c;
+        /* Green */
+        border: 2px solid #000000;
+        color: white;
+        padding: 10px 22px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
     }
 </style>
 
@@ -40,16 +62,12 @@
 
 <body bgColor="#90A4AE">
     <header>
-        <div style="background: linear-gradient(to right, black, #90A4AE) ;">
-            <img Src="Recursos/niñojugando.jpg" class="niñojugando" border="2">
-            <h1>
-                <p style="Color:#ffffff;">
-                    &nbsp;Efectos sobre los niños
-            </h1>
+        <div class="barra">
+            <h1>Efectos sobre los niños</h1>
         </div>
-        </p>
+        <img src="Recursos/niñojugando.jpg" class="niñojugando" border="0">
     </header>
-    <p style="Color:black;" class="cuerpo">Los videojuegos son programas de ordenador que conectados a una pantalla o
+    <p style="color:black;" class="cuerpo">Los videojuegos son programas de ordenador que conectados a una pantalla o
         televisión,
         integran un sistema de vídeo y audio.
         Al igual que la televisión, un correcto uso de los videojuegos tiene efectos positivos sobre el niño o el
