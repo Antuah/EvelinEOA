@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta Charset="iso-8859-1">
+    <meta name="description" content="Emocionalmente">
+    <title>Emocionalmente</title>
+</head>
+
+<body background="Emocionalmente.jpg" style="background-size: cover;">
+    <header>
+        <div style="background-color: aliceblue;">
+            <h1>
+                <p style="Color:#1C2833;">
+                    <center>Emocional
+            </h1>
+            </p>
+        </div>
+        </center>
+    </header>
+    <div style="background-color: aliceblue;">
+        <p style="Color:black;">Un consumo excesivo genera diferentes efectos como ansiedad, depresión, conductas
+            obsesivas, soledad e incluso una disminución de la inteligencia emocional, además de una menor expresión de
+            las emociones.</p>
+    </div>
+</body>
+<footer style="color: rgb(0, 255, 8);">
+    <p>
+        <center>Publicado por Evelin Luna Ortega</center>
+    </p>
+    <p>
+        <center>Derechos Reservados & Copy 2023</center>
+    </p>
+</footer>
+
+</html>
